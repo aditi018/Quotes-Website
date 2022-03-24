@@ -6,7 +6,7 @@ const quotes = document.getElementById("quotes");
         let quotesData= "";
 
         const tweetNow=()=>{
-            let tweetPost = `https://twitter.com/intent/tweet?text=${quotesData.text} "-" ${quotesData.author}`;
+            let tweetPost = `https://twitter.com/intent/tweet?text=${quotesData.text}  ${quotesData.author}`;
             window.open(tweetPost);
         }
 
