@@ -16,8 +16,8 @@
     font-weight: lighter;
     }
 .inner{
-        height: 90%;
-        width: 30%;
+        height: 80vh;
+        width: 60vw;
        display: flex;
        justify-content: center;
        align-items: center;
@@ -86,7 +86,7 @@
     .start-quote{
         opacity: 0.2;
         font-size: 50px;
-        margin-top: 50%;
+        margin-top: 20%;
     }
     #quotes{
         font-family: cursive;
